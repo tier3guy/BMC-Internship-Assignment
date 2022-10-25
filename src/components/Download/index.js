@@ -10,7 +10,7 @@ const Download = () => {
             <img src={image} alt="img" className="image" />
             <a href="#" className='download-button'>
                 <p>Desktop App</p>
-                <i class="fa-solid fa-arrow-right"></i>
+                <i className="fa-solid fa-arrow-right"></i>
             </a>
         </div>
     );

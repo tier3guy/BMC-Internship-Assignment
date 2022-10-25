@@ -6,3 +6,37 @@
     border-radius: 7px;
     padding: 12px;
 }
+
+.doctor-card{
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ico{
+    font-size: 2em;
+    color: aliceblue;
+}
+
+.timecard{
+    background: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.name-dept > h5, .name-dept > h6{
+    font-weight: 300;
+    color: aliceblue;
+}
+
+.name-dept > h5{
+    font-size: 1.1em;
+    margin-bottom: 3px;
+}
+.name-dept > h6 {
+    font-size: 0.9em;
+}
