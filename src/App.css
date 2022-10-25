@@ -2,3 +2,9 @@
     width: 100vw;
     display: flex;
 }
+
+.container{
+    width: 75%;
+    height: 100vh;
+    padding: 15px;
+}
