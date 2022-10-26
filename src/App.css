@@ -17,11 +17,17 @@
 
 .top{
     width: 100%;
-    height: 55%;
+    height: 53%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .progress-bar{
     width: 56%;
+}
+
+.graph-container-wrapper{
+    height: 45%;
+    margin-top: 2%;
+    width: 100%;
 }

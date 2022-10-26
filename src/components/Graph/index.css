@@ -1,0 +1,33 @@
+.graph-container{
+    width: 100%;
+    height: 100%;
+    background: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 15px;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.graph{
+    margin-top: 10px;
+}
+.tittle{
+    font-weight: 300;
+    font-size: 1em;
+}
+.graph-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#year {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: 0.9em;
+}

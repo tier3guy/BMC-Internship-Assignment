@@ -6,6 +6,7 @@ import Sidebar from "./components/Sidebar";
 import Profile from "./components/Profile";
 import Progress from "./components/Progressbar";
 import Activity from "./components/Activity";
+import Graph from "./components/Graph";
 
 const App = () => {
   return (
@@ -21,7 +22,9 @@ const App = () => {
               <Activity />
             </div>
           </div>
-          <div className="graph-container"></div>
+          <div className="graph-container-wrapper">
+            <Graph />
+          </div>
         </div>
 
         <Sidebar />
