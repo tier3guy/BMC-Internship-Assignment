@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     position: relative;
 }
 .wrapper-progress-bar > h3{ 
