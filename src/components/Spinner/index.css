@@ -1,0 +1,29 @@
+.wrapper-progress-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.wrapper-progress-bar > h3{ 
+    position: absolute;
+    font-weight: 300;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5em;
+    color: grey;
+}
+.message{ 
+    font-size: 1em;
+    color: black;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.wrap-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 48%;
+}
